@@ -233,6 +233,158 @@ System Design is crucial for building **robust, scalable, and efficient** softwa
 
 ---
 
+## 📌 Repository Sturcture
+
+system-design-handbook/
+│
+├── README.md
+│
+├── basics/
+│   ├── system-design-introduction.md
+│   ├── hld-vs-lld.md
+│   ├── functional-requirements.md
+│   └── non-functional-requirements.md
+│
+├── high-level-design/
+│   ├── what-is-hld.md
+│   ├── architectural-styles/
+│   │   ├── monolithic-architecture.md
+│   │   ├── microservices-architecture.md
+│   │   ├── event-driven-architecture.md
+│   │   ├── serverless-architecture.md
+│   │   ├── stateful-vs-stateless.md
+│   │   └── pub-sub-architecture.md
+│   └── monolithic-vs-microservices.md
+│
+├── scalability/
+│   ├── horizontal-vs-vertical-scaling.md
+│   ├── scalability-strategy.md
+│   └── scalability-bottlenecks.md
+│
+├── databases/
+│   ├── sql-vs-nosql.md
+│   ├── storage-systems.md
+│   ├── database-replication.md
+│   ├── database-sharding.md
+│   ├── block-object-file-storage.md
+│   ├── normalization.md
+│   ├── denormalization.md
+│   ├── sql-query-optimization.md
+│   └── redis-introduction.md
+│
+├── consistency-availability-reliability/
+│   ├── availability.md
+│   ├── high-availability.md
+│   ├── consistency-models.md
+│   ├── consistency-patterns.md
+│   ├── cap-theorem.md
+│   ├── reliability.md
+│   ├── fault-tolerance.md
+│   └── maintainability.md
+│
+├── load-balancing/
+│   ├── load-balancer.md
+│   ├── load-balancing-algorithms.md
+│   ├── consistent-hashing.md
+│   └── concurrency-vs-parallelism.md
+│
+├── latency-throughput-caching/
+│   ├── latency-vs-throughput.md
+│   └── caching.md
+│
+├── api-gateway-messaging-rate-limiting/
+│   ├── api-gateway.md
+│   ├── message-queues.md
+│   ├── rate-limiting.md
+│   └── rate-limiting-algorithms.md
+│
+├── protocols-cdn-networking/
+│   ├── communication-protocols.md
+│   ├── dns.md
+│   ├── dns-caching.md
+│   ├── ttl.md
+│   ├── cdn.md
+│   ├── proxies.md
+│   ├── forward-vs-reverse-proxy.md
+│   └── websockets.md
+│
+├── testing-ci-cd/
+│   ├── unit-testing.md
+│   ├── integration-testing.md
+│   └── ci-cd-pipeline.md
+│
+├── security/
+│   ├── security-in-system-design.md
+│   ├── authentication-authorization.md
+│   ├── ssl-tls.md
+│   ├── ssdlc.md
+│   └── backup-disaster-recovery.md
+│
+├── distributed-systems/
+│   ├── consensus-algorithms.md
+│   ├── distributed-tracing.md
+│   └── secure-communication.md
+│
+├── cost-performance-optimization/
+│   ├── software-cost-estimation.md
+│   └── performance-optimization.md
+│
+├── low-level-design/
+│   ├── lld-introduction.md
+│   ├── oop-concepts.md
+│   └── modularity-interfaces.md
+│
+├── design-principles/
+│   ├── solid-principles.md
+│   ├── dry-principle.md
+│   ├── kiss-principle.md
+│   └── yagni-principle.md
+│
+├── uml/
+│   └── uml-basics.md
+│
+├── design-patterns/
+│   ├── creational/
+│   │   ├── singleton.md
+│   │   ├── factory-method.md
+│   │   ├── abstract-factory.md
+│   │   ├── builder.md
+│   │   └── prototype.md
+│   │
+│   ├── structural/
+│   │   ├── adapter.md
+│   │   ├── decorator.md
+│   │   ├── composite.md
+│   │   ├── proxy.md
+│   │   └── facade.md
+│   │
+│   └── behavioral/
+│       ├── observer.md
+│       ├── strategy.md
+│       ├── command.md
+│       ├── state.md
+│       └── template-method.md
+│
+├── case-studies/
+│   ├── url-shortener.md
+│   ├── dropbox-design.md
+│   ├── twitter-design.md
+│   ├── netflix-design.md
+│   ├── uber-design.md
+│   ├── bookmyshow-design.md
+│   ├── facebook-messenger-design.md
+│   ├── whatsapp-design.md
+│   ├── instagram-design.md
+│   ├── airbnb-design.md
+│   └── airline-management-system.md
+│
+└── diagrams/
+    ├── hld/
+    ├── lld/
+    └── case-studies/
+
+
+---
 ## 🤝 Contributions
 
 Contributions are welcome!  
