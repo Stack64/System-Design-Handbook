@@ -19,8 +19,6 @@ System Design is crucial for building **robust, scalable, and efficient** softwa
 ---
 
 ## 🧱 Basics of System Design
-
-### Introduction
 - What is System Design?
 - High-Level Design (HLD) vs Low-Level Design (LLD)
 - Functional Requirements
@@ -29,94 +27,68 @@ System Design is crucial for building **robust, scalable, and efficient** softwa
 ---
 
 ## 🏗️ High Level Design (HLD)
-
-- What is High Level Design?
 - System Architectural Styles
-  - Monolithic Architecture
-  - Microservices Architecture
-  - Event-Driven Architecture
-  - Serverless Architecture
-  - Stateful vs Stateless Architecture
-  - Pub/Sub Architecture
-- Monolithic vs Microservices Architecture
+- Monolithic vs Microservices
+- Event-Driven, Serverless, Stateful vs Stateless
+- Pub/Sub Architecture
 
 ---
 
 ## 📈 Scalability
-
-- Horizontal Scaling vs Vertical Scaling
-- Choosing the Right Scalability Strategy
-- Primary Bottlenecks That Hurt Scalability
+- Horizontal vs Vertical Scaling
+- Scalability Strategies
+- Bottlenecks
 
 ---
 
 ## 🗄️ Databases in System Design
-
-- Choosing a Database: SQL vs NoSQL
-- File & Database Storage Systems
-- Database Replication
-- Database Sharding
-- Block, Object & File Storage
-- Database Normalization
-- SQL Query Optimization
-- Denormalization
-- Introduction to Redis
+- SQL vs NoSQL
+- Storage Systems
+- Replication & Sharding
+- Normalization & Denormalization
+- Redis
 
 ---
 
 ## ⚖️ Consistency, Availability & Reliability
-
-- Availability in System Design
-- High Availability Techniques
-- Consistency Models
-- Consistency Patterns
 - CAP Theorem
-- Reliability in System Design
+- Consistency Models
+- High Availability
 - Fault Tolerance
 - Maintainability
 
 ---
 
 ## ⚡ Load Balancing & Concurrency
-
 - Load Balancers
-- Load Balancing Algorithms
+- Algorithms
 - Consistent Hashing
 - Concurrency vs Parallelism
 
 ---
 
 ## ⏱️ Latency, Throughput & Caching
-
 - Latency vs Throughput
-- Caching in System Design
+- Caching Strategies
 
 ---
 
 ## 🌐 API Gateway, Messaging & Rate Limiting
-
 - API Gateway
 - Message Queues
-- Rate Limiting
 - Rate Limiting Algorithms
 
 ---
 
 ## 🌍 Protocols, CDN & Networking
-
-- Communication Protocols
-- Domain Name System (DNS)
-- DNS Caching
-- Time To Live (TTL)
-- Content Delivery Network (CDN)
-- Proxies in System Design
-  - Forward Proxy vs Reverse Proxy
+- DNS & TTL
+- CDN
+- Proxies
 - WebSockets
 
 ---
 
 ## 🧪 Testing & CI/CD
-
 - Unit Testing
 - Integration Testing
 - CI/CD Pipelines
@@ -124,117 +96,64 @@ System Design is crucial for building **robust, scalable, and efficient** softwa
 ---
 
 ## 🔐 Security Measures
-
-- Security in System Design
 - Authentication & Authorization
-- SSL & TLS
-- Secure Software Development Life Cycle (SSDLC)
-- Data Backup & Disaster Recovery
+- SSL / TLS
+- SSDLC
+- Backup & Disaster Recovery
 
 ---
 
 ## 🌐 Distributed System Design
-
 - Consensus Algorithms
 - Distributed Tracing
-- Secure Communication in Distributed Systems
+- Secure Communication
 
 ---
 
 ## 💰 Cost & Performance Optimization
-
-- Software Cost Estimation
-- Performance Optimization Techniques
+- Cost Estimation
+- Performance Optimization
 
 ---
 
 ## 🧩 Low Level Design (LLD)
-
-### Core Concepts
-- Object-Oriented Programming (OOP)
+- OOP Concepts
 - Modularity & Interfaces
-- What is Low Level Design?
 
 ---
 
 ## 📐 Design Principles
-
-- SOLID Principles
-- DRY Principle
-- KISS Principle
-- YAGNI Principle
+- SOLID
+- DRY
+- KISS
+- YAGNI
 
 ---
 
 ## 📊 UML & Design Patterns
-
-### UML
-- Unified Modeling Language (UML)
-
-### Design Patterns
-
-#### Creational Patterns
-- Singleton
-- Factory Method
-- Abstract Factory
-- Builder
-- Prototype
-
-#### Structural Patterns
-- Adapter
-- Decorator
-- Composite
-- Proxy
-- Facade
-
-#### Behavioral Patterns
-- Observer
-- Strategy
-- Command
-- State
-- Template Method
+- UML Basics
+- Creational, Structural & Behavioral Patterns
 
 ---
 
-## 🧠 System Design Case Studies (Interview-Oriented)
-
-- URL Shortening Service
-- Design Dropbox
-- Design Twitter
-- Netflix System Architecture
-- Uber System Architecture
-- BookMyShow Design
+## 🧠 System Design Case Studies
+- URL Shortener
+- Dropbox
+- Twitter
+- Netflix
+- Uber
+- BookMyShow
 - Facebook Messenger
-- WhatsApp Messenger
+- WhatsApp
 - Instagram
 - Airbnb
 - Airline Management System
 
 ---
 
-## 🎯 Who Should Use This Repository?
+## 📁 Repository Structure (Complete)
 
-- Backend Developers
-- Java / Spring Boot Developers
-- Software Engineers preparing for System Design Interviews
-- Students learning Distributed Systems
-- Engineers targeting **SDE-2 / Senior Developer roles**
-
----
-
-## 📌 How to Use This Repository
-
-1. Start with **System Design Basics**
-2. Move to **HLD & Architecture Styles**
-3. Learn **Scalability, Databases & Caching**
-4. Study **Distributed Systems & Security**
-5. Practice **Real-world Design Problems**
-6. Revise **LLD & Design Patterns**
-
----
-
-## 📌 Repository Sturcture
-
+```text
 system-design-handbook/
 │
 ├── README.md
@@ -247,14 +166,14 @@ system-design-handbook/
 │
 ├── high-level-design/
 │   ├── what-is-hld.md
-│   ├── architectural-styles/
-│   │   ├── monolithic-architecture.md
-│   │   ├── microservices-architecture.md
-│   │   ├── event-driven-architecture.md
-│   │   ├── serverless-architecture.md
-│   │   ├── stateful-vs-stateless.md
-│   │   └── pub-sub-architecture.md
-│   └── monolithic-vs-microservices.md
+│   ├── monolithic-vs-microservices.md
+│   └── architectural-styles/
+│       ├── monolithic-architecture.md
+│       ├── microservices-architecture.md
+│       ├── event-driven-architecture.md
+│       ├── serverless-architecture.md
+│       ├── stateful-vs-stateless.md
+│       └── pub-sub-architecture.md
 │
 ├── scalability/
 │   ├── horizontal-vs-vertical-scaling.md
@@ -350,14 +269,12 @@ system-design-handbook/
 │   │   ├── abstract-factory.md
 │   │   ├── builder.md
 │   │   └── prototype.md
-│   │
 │   ├── structural/
 │   │   ├── adapter.md
 │   │   ├── decorator.md
 │   │   ├── composite.md
 │   │   ├── proxy.md
 │   │   └── facade.md
-│   │
 │   └── behavioral/
 │       ├── observer.md
 │       ├── strategy.md
@@ -382,32 +299,3 @@ system-design-handbook/
     ├── hld/
     ├── lld/
     └── case-studies/
-
-
----
-## 🤝 Contributions
-
-Contributions are welcome!  
-You can help by:
-- Adding architecture diagrams
-- Improving explanations
-- Adding new system design problems
-- Sharing interview insights
-
----
-
-## ⭐ Support
-
-If this repository helped you:
-- ⭐ Star the repository  
-- 🍴 Fork it  
-- 📢 Share with others  
-
----
-
-## 👤 Author
-
-**Mohd Sohail Khan**  
-Java Backend Developer | System Design Enthusiast
-
----
