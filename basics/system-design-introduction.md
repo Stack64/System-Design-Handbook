@@ -6,3 +6,6 @@ The goal is to create a well-organized and efficient structure that meets the in
 ## System Design in SDLC
 In System Design Life Cycle, without the designing phase, one cannot jump to the implementation or the testing part.
 System Design is a vital step and also provides the backbone to handle exceptional scenarios because it represents the business logic of the software.
+
+
+
